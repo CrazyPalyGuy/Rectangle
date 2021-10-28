@@ -5,8 +5,8 @@ color colourStroke, colourFill, backgroundColour;
 float x=width*1/4, y=height*1/4, widthRect=width*1/2;
 float heightRect=height*1/2;
 int thin=width*1/50, thick=2*thin;
-Boolean NightMode=false; //off for false
-Boolean randomBackground = false;
+Boolean NightMode=true; //off for false
+Boolean randomBackground = true;
 if ( randomBackground == true) {
   backroundColour = color( random(0, 255), random(255), random(255) );
 } else {
